@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+label {
+    text-transform: capitalize;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+tbody {
+    font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+tr:not("thead") {
+    background-color: whitesmoke;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#bsOverrides thead {
+    text-transform: capitalize;
+    background-color: #37475a !important;
+    color: whitesmoke;
 }
 
-.App-link {
-  color: #61dafb;
+#bsOverrides .card {
+    margin: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#bsOverrides .card.side,
+#bsOverrides .card.side * {
+    border-radius: 0 !important;
+}
+
+#bsOverrides .navbar.navbar-dark.bg-dark {
+    background-color: #37475a !important;
+}
+
+#bsOverrides .nav-tabs {
+
+    --bs-nav-tabs-border-width: 1px;
+    --bs-nav-tabs-link-hover-border-color: #ffffff #ffffff #e0b700;
+    --bs-nav-tabs-link-active-color: #1a1a1a;
+    --bs-nav-tabs-link-active-bg: #fff;
+    --bs-nav-tabs-link-active-border-color: #ffffff #ffffff #e0b700;
+    border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color);
+    color: #6d6d6d;
+}
+
+#bsOverrides .nav-tabs .nav-link {
+    text-transform: capitalize;
+    color: #6d6d6d;
+}
+
+#bsOverrides .nav-tabs .nav-link.active {
+    color: #181818;
+    font-weight: bold;
+}
+
+#bsOverrides .tab-content {
+    background-color: whitesmoke;
+}
+
+
+.svg-inline--fa {
+    margin-inline: 4px;
+    opacity: 0.9;
+}
+
+.svg-inline--fa:hover {
+    cursor: pointer;
+    opacity: 1;
+
 }

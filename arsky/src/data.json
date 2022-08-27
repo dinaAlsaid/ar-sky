@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "title": "Account Receivable",
+    "company": "Sky Software",
+    "user": "user name"
+  },
+  "Companies": [
+    {
+      "accountNumber": "62541",
+      "companyName": "Inn Tours & Travel",
+      "categoryName": "Travel Agent",
+      "creditLimit": 10000,
+      "Balance": 24200,
+      "addresses": [
+        {
+          "title": "Mailing & Physical",
+          "address": "Amman, Jordan, PO Box 123456"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Raad Al Ali",
+          "role": "Development Manager",
+          "email": "example@gmail.com",
+          "phoneNumber": "0790000000"
+        },
+        {
+          "name": "Husam anwar",
+          "role": "Development Manager",
+          "email": "example@gmail.com",
+          "phoneNumber": "07490000000"
+        }
+      ],
+      "invoices": [
+        {
+          "invoiceNumber": 14532,
+          "amount": 10000,
+          "remaining": 10000,
+          "contant": "Hussam Al-Khaldi",
+          "status": "Issued",
+          "date": "30/10/2021",
+          "note": "the supplement"
+        },
+        {
+          "invoiceNumber": 14533,
+          "amount": 10000,
+          "remaining": 10000,
+          "contant": "Hussam Al-Khaldi",
+          "status": "Submitted",
+          "date": "30/10/2021",
+          "note": "the supplement"
+        },
+        {
+          "invoiceNumber": 14534,
+          "amount": 10000,
+          "remaining": 4200,
+          "contant": "Hussam Al-Khaldi",
+          "status": "Paid",
+          "date": "30/10/2021",
+          "note": "the supplement"
+        }
+      ]
+    },
+    {
+      "companyId": 2,
+      "accountNumber": "5214",
+      "companyName": "Leisure In",
+      "categoryName": "Travel Agent",
+      "creditLimit": 10000,
+      "Balance": 9750,
+      "addresses": [
+        {
+          "title": "Mailing & Physical",
+          "address": "Riyadh, KSA, PO Box 212541"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Othman Taha",
+          "role": "Development Manager",
+          "email": "example@gmail.com",
+          "phoneNumber": "+9665123456"
+        }
+      ]
+    }
+  ],
+  "FollowUpItems": [
+    {
+      "companyName": "Inn Tours & Travel",
+      "body": "Collect 50% of Anwar event invoices",
+      "dueBy": "01/02/2021 10:00 EST"
+    },
+    {
+      "companyName": "Leisure In",
+      "body": "Call Ahmad Omar to settle down pending invoices from 2017",
+      "dueBy": "15/02/2021 10:00 EST"
+    }
+  ],
+  "RecentActions": [
+    {
+      "actionTypeName": "Send New Invoice",
+      "companyName": "Inn Tours & Travel",
+      "invoiceNumber": 25147,
+      "dueBy": "01/02/2021 10:00 EST"
+    }
+  ],
+  "RelatedReports": [
+    {
+      "label": "Statement of Account",
+      "href": "#"
+    },
+    {
+      "label": "Companies exceeding credit limit",
+      "href": "#"
+    }
+  ]
+}
